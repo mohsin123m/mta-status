@@ -5,11 +5,11 @@ const client = new Discord.Client({ intents: [new Discord.Intents().add(32767)] 
 
 client.on('ready', () => {
 	console.log(`Logged Us : ${client.user.tag}`);
-	mta.status(`51.161.122.210`,`22003`).then(mta => {
+	mta.status(`141.95.225.51`,`22013`).then(mta => {
 		console.log(mta)
 	}).catch(err => {
 		console.log(err)
 	})
 });
 
-client.login(config.token);
+client.login(OTM4MzE2MjgzMTA2MTY0NzQ2.YfohIg.DIpVn4EdMrn4IBXcwJ9fm8pHM8Y);
